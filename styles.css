@@ -1,53 +1,100 @@
+.a:visited {
+  color: white;
+  }
+
 .section__title--footer {
     text-align: center;
     font-size: 12px;
 }
 
-.news-list {
+img {
+    display: block;
+    max-width:100%;
+    height:auto;
+}
+
+.fx635-laser {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
     position: relative;
-    display: flex;
-    max-width: 150px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
+.news-list {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.info {
+  width: 300px;
+}
 
 .news {
-    border: 2px solid black;
-    padding: 5px;
+  width: 820px;
+  position: relative;
+  margin-left: auto;
 }
 
 .news + .news {
     margin-left: 2em;
 }
 
+
+
 .services {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .service + .service {
     margin-left: 2em;
 }
 
+
 .service {
+    text-align: justify;
     border: 2px solid black;
-    padding: 5px;
+    padding: 10px;
+    width: 443px;
 }
 
 .section__title--services {
     position: relative;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(7, 138, 138);
+    color: white;
     width: 100%;
     padding: 0;
 }
 
+
+.section_title--schedule {
+  text-align: center;
+  background-color: rgb(7, 138, 138);
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .nav {
+    font-size: 18px;
     width: 100%;
     position: absolute;
-    background-color: aquamarine;
-    color: black;
+    background-color: rgb(7, 138, 138);
+    color: white;
     z-index: 100;
 }
 
@@ -63,6 +110,298 @@
     padding: 0;
 }
 
+.nav-link .a:visited {
+  color: #f2f2f2;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+    
+}
+
+.schedule {
+  max-width: 40%;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.schedule-days {
+  word-spacing: 3px;
+  column-count: 2;
+  column-gap: 40px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /*----Image Slider ------*/
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  /*----Appointment Request Form ------*/
+
+  .contact-us {
+    position: relative;
+    width: 800px;
+  }
+
+  .appointment-title {
+    padding: 5px;
+    background-color: rgb(7, 138, 138);
+    color: white;
+    margin: 0px;
+  }
+
+  /* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.appointment-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  strong {
+    padding: 2px;
+  }
+  
+}
+
+/*--------ABOUT ME PAGE----------*/
+
+.section_title-about-me {
+  text-align: center;
+  background-color: rgb(7, 138, 138);
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.history {
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+
+}
+
+.history-text {
+  border-radius: 25px;
+  background-color: darkcyan;
+  color: white;
+  position: relative;
+  padding: 5px;
+  text-align: justify;
+  width: 1040px;
+  margin-left: auto;
+  border-style: solid;
+}
+
+.about-container {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  box-shadow: 5px;
+}
+
+.testimonials {
+  margin-right: auto;
+  position: relative;
+
+}
+
+#slider {
+  position: relative;
+  width: 500px;
+  height: 265px;
+
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+}
+#slider ul li {
+  position: relative;
+  height: 100%;
+
+  float: left;
+}
+
+#slider ul li img{
+  width: 500px;
+  height: 265px;
+}
+
+#slider #prev, #slider #next {
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+
+#slider #prev {
+  left: 10px;
+}
+#slider #next {
+  right: 10px;
+}
+
+#slider #prev:hover, #slider #next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0;
 }

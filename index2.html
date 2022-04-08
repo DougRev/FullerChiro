@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <title>FullerChiroptractic</title>
+    <style type="text/css">
+      a{
+       color: white;
+      }
+  </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/fuller-logo.webp" alt="fuller-chiro-logo">
+        </div>   
+        <div id="photo-scroll"></div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index2.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index2.html#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="../FullerChiropractic/new-patients.html" class="nav-link">New Patients</a></li>
+                <li class="nav-item"><a href="../FullerChiropractic/ErchoniaFX.html" class="nav-link">Erchonia FX Laser Video</a></li>
+                <li class="nav-item"><a href="index2.html#home" class="nav-link">Address and Location</a></li>
+                <li class="nav-item"><a href="index2.html#contact" class="nav-link">Contact Us</a></li>
+                <li class="nav-item"><a href="index2.html#testimonials" class="nav-link">Our Patients Speak</a></li>
+                <li class="nav-item"><a href="index2.html#schedule" class="nav-link">Our Schedule</a></li>
+                <li class="nav-item"><a href="../FullerChiropractic/about-me.html" class="nav-link">About Me</a></li>
+            </ul>
+        </nav>
+        <br />
+        <br />
+        <br />
+    </header>
+
+  
+
+        <!--News-->
+    <section class="home-news" id="news">
+        <h2 class="section__title section__title--news"></h2>
+        <div class="news-list">
+          <div class="contact-us">
+            <h2 class="appointment-title">Request An Appointment</h2>
+            <div class="appointment-container">
+              <form action="dougl.revell@gmail.com">
+                <div class="row">
+                  <div class="col-25">
+                    <label for="fname">First Name</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="lname">Last Name</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="appointment type">Type</label>
+                  </div>
+                  <div class="col-75">
+                    <select id="appointment-type" name="appointment-type">
+                      <option value="new-patient">New Patient</option>
+                      <option value="returning-patient">Returning Patient</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="subject">Subject</label>
+                  </div>
+                  <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <input type="submit" value="Submit">
+                </div>
+              </form>
+            </div>
+
+          </div>
+            <div class="news">
+                  <!-- Full-width images with number text -->
+           <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <a href="../FullerChiropractic/ErchoniaFX.html"><img src="images/low-back-laser.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+           <img src="images/mathew-schwartz-8rj4sz9YLCI-unsplash.jpg" style="width:100%">
+         </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+          <img src="../FullerChiropractic/images/daria-shatova-46TvM-BVrRI-unsplash.jpg" style="width:100%">
+        </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="../FullerChiropractic/images/kate-stone-matheson-uy5t-CJuIK4-unsplash.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+         <img src="images/footbath.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+         <div class="numbertext">6 / 6</div>
+          <img src="images/muscle-stim-lady.jpg" style="width:100%">
+     </div>
+
+      <!-- Next and previous buttons -->
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+     <!-- Image text -->
+      <div class="caption-container">
+      <p id="caption"></p>
+       </div>
+
+     <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/low-back-laser.png" style="width:100%" onclick="currentSlide(1)" alt="FX 635 Laser!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/mathew-schwartz-8rj4sz9YLCI-unsplash.jpg" style="width:100%" onclick="currentSlide(2)" alt="Why Choose Us?">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/daria-shatova-46TvM-BVrRI-unsplash.jpg" style="width:100%" onclick="currentSlide(3)" alt="What is a Low Level Laser?">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/kate-stone-matheson-uy5t-CJuIK4-unsplash.jpg" style="width:100%" onclick="currentSlide(4)" alt="Are you Suffering?">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/footbath.jpg" style="width:100%" onclick="currentSlide(5)" alt="Detoxifaction Footbath">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/muscle-stim-lady.jpg" style="width:100%" onclick="currentSlide(6)" alt="Electrical Stimulation">
+    </div>
+    <script src="script.js"></script>
+  </div>
+</div>
+</div>
+    </section>
+     <!--Our Services-->
+     <section class="home-services" id="services">
+      <h2 class="section__title section__title--services">Our Services</h2>
+  <div class="services">
+  <!--service-->
+   <div class="service">
+      <img src="images/fake-spine.jpg" alt="Back Adjustment">
+      <h3>Chripractic Care</h3>
+      <p>
+          Dr. Fuller utilizes a variety of different chiropractic techniques to personalize the treatment of each and every one of his patients. Techniques such as Diversified, Gonstead, Thompson, Mally Extremity, as well as instrument assisted adjusting for those patients who prefer a low force manipulation allow him to accommodate many different preferences. His many years of experience allows him to provide effective yet comfortable chiropractic care. As a chiropractor with over 30 years of experience, he has seen excellent results in improving the quality of life for his patients and with his additional training in physical therapy and sports medicine, he also treats patients with a myriad of sports injuries and other musculoskeletal conditions such as pain or injuries involving the foot, ankle, knee, hip, shoulder, elbow, wrist, and hand.  Additionally, because we offer neutracetuicals, low level laser therapy, and detoxification footbaths, we are able to provide effective treatment to patients suffering from many other conditions including disc problems, sciatica, chronic pain, gastrointestinal complaints, osteopenia, and elevated cholesterol.
+      </p>
+  </div>
+  <!--service-->
+  <div class="service">
+      <img src="images/fx635-laser.png" alt="Laser Therapy Treatment" class="fx635-laser" width="80%">
+      <h3>Laser Therapy</h3>
+      <p>
+          When the body isn't functioning properly whether due to injury or just continuous poor posture, the cells are damaged and fail to function within normal parameters.  The Erchonia Low Level Laser utilizes phototherapy to penetrate deeply into the skin and thereby restoring this abnormal function. The most common use for laser in our office is restoring normal strength to weakened muscle groups that has occurred by injury or by abnormal movement patterns.  Many of our patients discover that upon being tested with the laser,  they  have weak muscle groups in their core,  lower back,  neck and  shoulders they were completely unaware of.  These weaknesses ultimately lead to pain and strain points in the spine, extremities and even the jaw.  Although the Laser Therapy Protocol is 6-10 treatments, many of our patients notice major changes after their first treatment.  Once the body is functioning at a more optimum level, core stability is restored and range of motion is increased.  Some of our patients describe better coordination and balance and a sense of "better control over their movements" and since the Laser works on a cellular level and is fully programmable, we have seen excellent results with reducing inflammation due to sprains/strains and even surgery incisions.
+      </p>
+  </div>
+  <!--service-->
+  <div class="service">
+      <img src="images/muscle-stim-lady.jpg" alt="Electrical Muscle Stimulation" id="ems">
+      <h3>Electrical Muscle Stimulation</h3>
+      <p>
+          Electrical Muscle Stimulation therapy involves lower levels of electrical impulses administered to muscle spasms or painful tissues to reduce pain and inflammation to speed the body's healing process.  These impulses stimulate the body to increase circulation and release natural pain relievers, called endorphins. Most patients describe EMS as a pleasant tingling sensation.  This therapy is often used to treat acute or chronic pain as well as strain or sprains of the muscles, joints, and soft tissues of the spine and extremities.
+      </p>
+  </div>
+  <!--service-->
+  <div class="service">
+      <img src="images/footbath.jpg" alt="Detoxifation Footbath Device">
+      <h3>Detoxifation Footbath</h3>
+      <p>
+          The Erchonia EBPro Ion Therapy system was designed to help enhance your body's natural detoxification process.  A waterbath is used in conjunction with a metal array to create an ionic field.  By immersing the feet into the water, an electrical contact is made with all of the primary meridians in the body.  These meridians are one of several pathways for toxins released to exit the body.  Many of our patients report feeling more energetic and "lighter" in their feet and legs after an ion footbath.  This type of therapy can be effective for fatigue, skin conditions, a stronger immune system, and mental clarity.
+      </p>
+  </div>
+</section>
+
+<!--Our Schedule-->
+<section class="home-schedule" id="schedule">
+  <h2 class="section__title section_title--schedule">Our Schedule</h2>
+  <div class="schedule-days">
+        <strong>Monday:</strong><br>8:00am - 12:15pm *LUNCH* 2:45pm-5:15pm</p>
+        <strong>Tuesday:</strong><br>8:00am - 12:15pm *LUNCH* 2:45pm-5:15pm</p>
+        <strong>Wednesday:</strong><br>8:00am - 12:15pm *LUNCH* 2:45pm-5:15pm</p>
+        <strong>Thursday:</strong><br>8:00am - 12:15pm *LUNCH* 2:45pm-5:15pm</p>
+        <strong>Friday:</strong>CLOSED</p>
+        <strong>Saturday:</strong>CLOSED</p>
+        <strong>Sunday:</strong>CLOSED</p>
+    </div>
+
+  
+</section>
+<!--Footer-->
+<section class="footer" id="home">
+  <h1 class="section__title section__title--footer">
+  <strong>Garry T. Fuller D.C. CCST</strong>
+  <p>515 N. Green St, Suite 100</p>
+  <p>Brownsburg,Indiana 46112</p>
+  <p>(317) 852-8885</p>
+  </h1>
+<p class="section__subtitle section__subtitle--footer"></p>
+</section>
+
+</body>
+</html>
+
+           
