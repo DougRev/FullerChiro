@@ -48,7 +48,22 @@ img {
 .news + .news {
     margin-left: 2em;
 }
-
+.name-bank {
+  position: relative;
+  width: 800px;
+}
+.name-bank-info {
+  font-size: 30px;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  background-color: #446ca4;
+}
+.section_title-name-bank {
+  padding: 20px;
+  color: white;
+  margin: 0px;
+}
 
 
 .services {
@@ -74,26 +89,20 @@ img {
 .section__title--services {
     position: relative;
     text-align: center;
-    background-color: rgb(7, 138, 138);
+    background-color: #446ca4;
     color: white;
     width: 100%;
     padding: 0;
 }
 
 
-.section_title--schedule {
-  text-align: center;
-  background-color: rgb(7, 138, 138);
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .nav {
     font-size: 18px;
     width: 100%;
     position: absolute;
-    background-color: rgb(7, 138, 138);
+    background-color: #446ca4;
     color: white;
     z-index: 100;
 }
@@ -119,19 +128,7 @@ body {
     
 }
 
-.schedule {
-  max-width: 40%;
-  margin-right: auto;
-  padding: 5px;
-}
 
-.schedule-days {
-  word-spacing: 3px;
-  column-count: 2;
-  column-gap: 40px;
-  padding: 5px;
-  margin-left: 5px;
-}
 
 * {
     box-sizing: border-box;
@@ -228,7 +225,7 @@ body {
 
   .appointment-title {
     padding: 5px;
-    background-color: rgb(7, 138, 138);
+    background-color: #446ca4;
     color: white;
     margin: 0px;
   }
@@ -251,7 +248,7 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color:#446ca4;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -304,7 +301,7 @@ input[type=submit] {
 
 .section_title-about-me {
   text-align: center;
-  background-color: rgb(7, 138, 138);
+  background-color:#446ca4;
   color: white;
   margin-left: auto;
   margin-right: auto;
@@ -320,8 +317,9 @@ input[type=submit] {
 }
 
 .history-text {
+  font-size: 18px;  
   border-radius: 25px;
-  background-color: darkcyan;
+  background-color:#446ca4;
   color: white;
   position: relative;
   padding: 5px;
@@ -404,4 +402,31 @@ input[type=submit] {
 #slider #prev:hover, #slider #next:hover {
   background-color: rgba(0, 0, 0, 0.5);
   text-shadow: 0;
+}
+.section_title--schedule {
+  margin-bottom: 0;
+  text-align: center;
+  background-color: #446ca4;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.schedule {
+  max-width: 40%;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.schedule-days {
+  color: white;
+  background-color: #5f86bc;
+  word-spacing: 3px;
+  column-count: 2;
+  column-gap: 40px;
+  padding: 5px;
+}
+
+.laser-video-container {
+  width: 700px;
 }
