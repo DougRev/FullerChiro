@@ -1,5 +1,5 @@
 .a:visited {
-  color: white;
+  color: black;
   }
 
 .section__title--footer {
@@ -50,14 +50,11 @@ img {
 }
 .name-bank {
   position: relative;
-  width: 800px;
 }
 .name-bank-info {
-  font-size: 30px;
+  font-size: 20;
   border-radius: 25px;
   text-align: center;
-  color: white;
-  background-color: #446ca4;
 }
 .section_title-name-bank {
   padding: 20px;
@@ -120,15 +117,13 @@ img {
 }
 
 .nav-link .a:visited {
-  color: #f2f2f2;
+  color: #000000;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     
 }
-
-
 
 * {
     box-sizing: border-box;
@@ -217,11 +212,6 @@ body {
   }
 
   /*----Appointment Request Form ------*/
-
-  .contact-us {
-    position: relative;
-    width: 800px;
-  }
 
   .appointment-title {
     padding: 5px;
@@ -429,4 +419,23 @@ input[type=submit] {
 
 .laser-video-container {
   width: 700px;
+}
+
+/*-------------Footer & Address ----------*/
+.contact-us {
+  padding-right: 10px;
+  position: relative;
+  width: 800px;
+}
+
+.new-patients {
+  background-color: rgb(240, 240, 240);
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.paperwork {
+  display: inline-block;
+  border-radius: 3px solid black;
 }
